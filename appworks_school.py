@@ -38,7 +38,6 @@ def count(input1):
             counts[char] = 1
     return counts
 input1 = ['a', 'b', 'c', 'a', 'c', 'a', 'x']
-print(count(input1)) # should print {'a': 3, 'b': 1, 'c': 2, 'x': 1}
 
 # 2. group_by_key: return an object which shows the summed up value of each key.
 
