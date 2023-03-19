@@ -42,9 +42,9 @@ print(count(input1)) # should print {'a': 3, 'b': 1, 'c': 2, 'x': 1}
 
 # 2. group_by_key: return an object which shows the summed up value of each key.
 
-def group_by_key(input):
+def group_by_key(input2):
     result = {}
-    for i in input:
+    for i in input2:
         key = i['key']
         value = i['value']
         if key in result:
